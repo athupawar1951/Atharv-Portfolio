@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Vaibhav Pawar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="#home" class="logo">AP <span>Atharv Vaibhav Pawar</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- HOME PAGE -->
+    <section class="page active" id="home">
+        <div class="hero">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1>Atharv Vaibhav Pawar</h1>
+            <h2>2nd Year Computer Engineering Student</h2>
+            <p>
+                I'm passionate about programming, web development,
+                software development and exploring new technologies
+                that shape the future.
+            </p>
+            <div class="buttons">
+                <a href="#projects" class="btn">Explore Projects ↗</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+            <div class="hero-logo">AP</div>
+        </div>
+    </section>
+
+    <!-- ABOUT PAGE -->
+    <section class="page" id="about">
+        <div class="page-content">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h1>About Me</h1>
+            <p>
+                I am Atharv Vaibhav Pawar, a second-year Computer
+                Engineering student who enjoys coding, developing
+                websites and exploring new technologies.
+            </p>
+            <p>
+                My goal is to improve my programming skills, solve
+                real-world problems and build useful software projects.
+                I enjoy learning through practical work and collaboration.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION PAGE -->
+    <section class="page" id="education">
+        <div class="page-content">
+            <p class="eyebrow">MY LEARNING JOURNEY</p>
+            <h1>Education</h1>
+            <div class="info-card">
+                <span class="card-icon">🎓</span>
+                <div>
+                    <h2>Computer Engineering</h2>
+                    <p>Second Year</p>
+                    <p>Currently pursuing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS PAGE -->
+    <section class="page" id="skills">
+        <div class="page-content">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h1>My Skills</h1>
+            <div class="skills-grid">
+                <div class="skill-card"><span>🌐</span><h3>HTML</h3></div>
+                <div class="skill-card"><span>🎨</span><h3>CSS</h3></div>
+                <div class="skill-card"><span>⚡</span><h3>JavaScript</h3></div>
+                <div class="skill-card"><span>🐍</span><h3>Python</h3></div>
+                <div class="skill-card"><span>☕</span><h3>Java</h3></div>
+                <div class="skill-card"><span>💻</span><h3>C</h3></div>
+                <div class="skill-card"><span>🗄️</span><h3>SQL</h3></div>
+                <div class="skill-card"><span>🔧</span><h3>Git & GitHub</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS PAGE -->
+    <section class="page" id="projects">
+        <div class="page-content">
+            <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+            <h1>My Projects</h1>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="card-icon">🖥️</span>
+                    <h2>Personal Portfolio</h2>
+                    <p>A responsive personal website built with HTML, CSS and JavaScript.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </article>
+                <article class="project-card">
+                    <span class="card-icon">📚</span>
+                    <h2>Student Management System</h2>
+                    <p>A project concept for managing student records and information.</p>
+                    <div class="tags"><span>Java</span><span>MySQL</span></div>
+                </article>
+                <article class="project-card">
+                    <span class="card-icon">🌦️</span>
+                    <h2>Weather App</h2>
+                    <p>A weather application concept with a simple, user-friendly interface.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section class="page" id="contact">
+        <div class="page-content">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h1>Contact Me</h1>
+            <p>Have a project idea or want to connect? Send me a message.</p>
+
+            <div class="info-card">
+                <span class="card-icon">✉️</span>
+                <div>
+                    <h2>Email</h2>
+                    <a href="mailto:atharvpawar1951@gmail.com">
+                        atharvpawar1951@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span class="card-icon">📍</span>
+                <div>
+                    <h2>Location</h2>
+                    <p>Pune, Maharashtra, India</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Atharv Vaibhav Pawar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
